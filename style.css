@@ -1,4 +1,7 @@
-
+section{
+    padding-right:8vw ;
+    padding-left: 8vw;
+}
 nav{
     display: flex;
     flex-direction: row;
