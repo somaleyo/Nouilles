@@ -2,6 +2,21 @@ section{
     padding-right:8vw ;
     padding-left: 8vw;
 }
+h2{
+    color: #695AA6;
+    font-weight: 1000;
+    font-family: "Baloo 2"; ;
+}
+h4{
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+    color: gray;
+}
+p{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+   
+}
 nav{
     display: flex;
     flex-direction: row;
@@ -21,11 +36,7 @@ nav{
     gap: 1vw;
    padding-right: 4vw;
 }
-nav h2{
-    color: #695AA6;
-    font-weight: 1000;
-    font-family: "Baloo 2";
-}
+
 nav a{
     color: rgba(0, 0, 0, 0.656);
     text-decoration: none;
@@ -37,7 +48,7 @@ header{
     padding-right:8vw ;
     padding-left: 8vw;
     background-image: url("images/header.jpg");
-    padding-left: 30vw;
+    padding-left: 25vw;
 
     
 }
@@ -67,9 +78,23 @@ header h3{
     border-radius: 20px;
     border: none;
     width: 15vw;
-    height: 5vh;
+    height: 4vh;
 }
 #about img{
-    width: 30vw;
-    height: 30vh;
+    width: 20vw;
+    height: 40vh;
+    padding-right: 2vw;
+}
+#about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#about button{
+    border: 1px solid rgb(96, 96, 194);
+    background-color: white;
+    color:rgb(96, 96, 194) ;
+    border-radius: 15px;
+    width: 15vw;
+    height: 4vh;
 }
