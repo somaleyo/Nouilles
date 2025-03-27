@@ -220,3 +220,37 @@ span{
     height: 4vh;
     
 }
+.work{
+    background-color: #695AA6;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+
+}
+.work p{
+    margin: 0;
+    line-height: 0.6rem;
+    padding-left: 15vw;
+    font-size: 15px;
+}
+.hire{
+    background-color: #F8F9FA;
+    border: none;
+    border-radius: 2px;
+    color: black;
+    font-weight: 1000;
+    width: 7vw;
+    height: 5vh;
+    font-size: 15px;
+    
+}
+.btncontainer{
+    padding-right: 20vw;
+}
+.gras{
+    font-weight: bold;
+}
