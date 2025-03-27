@@ -160,11 +160,44 @@ header h3{
 
 #portfolio img{
     height: 40vh;
-    width: 20vw;
+    width: 24vw;
 }
 .imgcontainer{
     display: flex;
     flex-direction: row;
     gap: 2vw;
-    margin-top: 3vh;
+    margin-top: 4vh;
+}
+#price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#price img{
+    height: 8vh;
+}
+.cards-container{
+    display: flex;
+}
+.card{
+    border: rgba(0, 0, 0, 0.074) solid 1px ;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    line-height: 1vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.card h3{
+    font-weight: 1000;
+    font-family: "Baloo 2"; 
+    color: #695AA6;
+    font-size: 2vw;
+}
+i{
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    color:rgba(255, 0, 0, 0.459);
 }
