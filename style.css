@@ -109,3 +109,29 @@ header h3{
     height: 4vh;
     margin-top: 4vh;
 }
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#services img{
+    height: 6vh;
+}
+.s-container{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   gap: 10vw;
+   align-items: center;
+   text-align: center;
+   
+}
+.services{
+    border: 1px solid black;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
