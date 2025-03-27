@@ -23,7 +23,7 @@ nav{
     justify-content: space-between;
     position: sticky;
     top: 0;
- 
+    margin-bottom: -115px;
     padding-right:8vw ;
     padding-left: 8vw;
     
@@ -46,10 +46,16 @@ nav a{
 
 header{
     padding-right:8vw ;
-    padding-left: 8vw;
-    background-image: url("images/header.jpg");
+    
     padding-left: 25vw;
 
+    background: linear-gradient(180deg,rgba(255, 95, 47, 0) 50%, rgb(255, 255, 255) 90%), url(/images/header.jpg) no-repeat;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: 50% 29%;
+    padding-top: 100px;
+    
     
 }
 header h1{
