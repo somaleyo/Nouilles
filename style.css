@@ -1,6 +1,7 @@
 section{
     padding-right:8vw ;
     padding-left: 8vw;
+    margin-top: 15vh;
 }
 h2{
     color: #695AA6;
@@ -14,6 +15,7 @@ h4{
     font-weight: 300;
     color: gray;
     margin-bottom: 0;
+    
 }
 p{
     font-family: "Noto Sans JP", sans-serif;
@@ -90,6 +92,9 @@ header h3{
     width: 8vw;
     height: 4vh;
 }
+#about h4{
+    margin-top: 0;
+}
 #about img{
     width: 20vw;
     height: 40vh;
@@ -143,4 +148,23 @@ header h3{
     font-family: "Baloo 2"; 
     color: #695AA6;
     font-size: 1vw;
+}
+#portfolio{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#portfolio img{
+    height: 40vh;
+    width: 20vw;
+}
+.imgcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin-top: 3vh;
 }
