@@ -187,7 +187,7 @@ header h3{
     padding-left: 7vw;
     padding-right: 7vw;
     line-height: 1vh;
-    padding-top: 3vh;
+    padding-top: 4vh;
     padding-bottom: 3vh;
 }
 .card h3{
@@ -200,4 +200,23 @@ i{
     margin-bottom: 2vh;
     margin-top: 2vh;
     color:rgba(255, 0, 0, 0.459);
+}
+.price{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+
+}
+span{
+    font-size: 15px;
+
+}
+.subscribe{
+    background-color: #695AA6;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 5vw;
+    height: 4vh;
+    
 }
