@@ -6,6 +6,7 @@ h2{
     color: #695AA6;
     font-weight: 1000;
     font-family: "Baloo 2"; ;
+    font-size: 2vw;
 }
 h4{
     font-family: "Noto Sans JP", sans-serif;
@@ -95,6 +96,7 @@ header h3{
     display:flex;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 #about button{
     border: 1px solid rgb(96, 96, 194);
@@ -103,4 +105,5 @@ header h3{
     border-radius: 15px;
     width: 8vw;
     height: 4vh;
+    margin-top: 4vh;
 }
