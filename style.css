@@ -1,0 +1,23 @@
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    
+    
+}
+.ancre-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+   padding-right: 4vw;
+}
+nav h2{
+    color: #695AA6;
+}
+nav a{
+    color: rgba(0, 0, 0, 0.656);
+    text-decoration: none;
+}
