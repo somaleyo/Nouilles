@@ -388,9 +388,33 @@ span{
     height: 4vh;
     border-radius: 2px;
     margin-top: 3vh;
+    margin-bottom: 13vh;
 }
 .msg{
     margin-top: 5vh;
     background-color: rgba(128, 128, 128, 0.052);
-    border: 1px solid rgba(0, 0, 0, 0.062)0, 0, 0, 0.199);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+footer{
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.104);
+    justify-content: space-between;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-right:8vw ;
+    padding-left: 8vw;
+}
+.reso-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3vw;
+}
+.copy{
+    color: gray;
+}
+.logo{
+    color: rgba(0, 0, 0, 0.533);
+    border: 1px solid black;
+    border-radius: 50%;
+    padding:10px;
 }
