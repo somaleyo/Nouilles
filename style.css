@@ -229,6 +229,8 @@ span{
     text-align: center;
     padding-top: 6vh;
     padding-bottom: 6vh;
+    margin-top: 10vh;
+    margin-bottom: 4vh;
 
 }
 .work p{
@@ -253,4 +255,30 @@ span{
 }
 .gras{
     font-weight: bold;
+}
+#testmonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 4vh;
+}
+.container-review{
+    display: flex;
+    gap: 5vw;
+
+}
+.review{
+    border: 1px solid rgba(0, 0, 0, 0.145);
+}
+.review img{
+    border-radius: 50%;
+    height:12vh;
+}
+.autor{
+    font-weight: 1000;
+    color: #695AA6;
+    font-family: "Baloo 2"; 
+    font-size: 1.2vw;
 }
