@@ -457,8 +457,8 @@ span{
     border:1px solid #695AA6;
     background-color: white;
     color: #695AA6;
-    width: 7vw;
-    height: 4vh;
+    width: 70px;
+    height: 40px;
     border-radius: 2px;
     margin-top: 3vh;
     margin-bottom: 13vh;
@@ -587,29 +587,34 @@ footer{
 /* Media Queries pour Mobile */
 @media screen and (max-width: 600px) {
     nav {
-        padding-right: 2vw !important;
-        padding-left: 2vw !important;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+       
     }
     .visit{
-        height: 5vh;
-        width: 1vw;
+        height: 35px;
+        width: 10px;
     }
 
     .ancre-container {
-        gap: 1vw;
+        gap: 10px;
     }
 
     header {
-        padding-left: 4vw !important;
-        padding-right: 4vw !important;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     header h1 {
-        font-size: 4vh !important;
+        font-size: 30px !important;
     }
 
     header h3 {
-        font-size: 2vh !important;
+        font-size: 20px !important;
     }
 
     #about img {
@@ -617,14 +622,34 @@ footer{
     }
 
     .services img {
-        height: 5vh !important;
+        height: 50px !important;
     }
-  
+    .services{
+        width: 120px;
+    }
+    .services p{
+        font-size: 14px;
+    }
     .card img {
-        height: 6vh !important;
+        height: 60px !important;
+        width: 50px;
+    }
+    .card{
+        width: 180px;
+    }
+    .work{
+        line-height: 20px;
+        width: 100%;
+    }
+    .work p{
+        width: 300px;
+    }
+    .hire{
+        width: 100px;
+        margin-left: 10px;
     }
 
-    .visit, .subscribe, .hire, .message {
+    .visit, .subscribe, .message {
         width: auto !important;
         padding: 10px 20px;
     }
