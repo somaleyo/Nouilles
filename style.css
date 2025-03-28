@@ -497,12 +497,98 @@ footer{
 
 /* responsive */
 
+@media screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        padding-right: 40px ;
+        padding-left: 40px ;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ancre-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about img {
+        width: 50% ;
+        height: auto ;
+        margin-bottom: 20px;
+    }
+
+    .s-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container .imgcontainer {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .container-review {
+        flex-direction: column;
+    }
+
+    .review {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .maincont {
+        width: 100%;
+    }
+
+    .post-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photocontainer img {
+        width: 100% ;
+        height: auto ;
+    }
+}
 
 /* Media Queries pour Mobile */
-@media  (max-width: 568px) {
+@media screen and (max-width: 568px) {
     nav {
-        padding-right: 20px !important;
-        padding-left: 20px !important;
+        padding-right: 20px ;
+        padding-left: 20px ;
        
     }
     .visit{
@@ -515,8 +601,8 @@ footer{
     }
 
     header {
-        padding-left: 40px !important;
-        padding-right: 40px !important;
+        padding-left: 40px ;
+        padding-right: 40px ;
         justify-content: center;
         display: flex;
         flex-direction: column;
@@ -524,19 +610,19 @@ footer{
     }
 
     header h1 {
-        font-size: 30px !important;
+        font-size: 30px ;
     }
 
     header h3 {
-        font-size: 20px !important;
+        font-size: 20px ;
     }
 
     #about img {
-        width: 80% !important;
+        width: 80% ;
     }
 
     .services img {
-        height: 50px !important;
+        height: 50px ;
     }
     .services{
         width: 120px;
@@ -545,7 +631,7 @@ footer{
         font-size: 14px;
     }
     .card img {
-        height: 60px !important;
+        height: 60px ;
         width: 50px;
     }
     .card{
@@ -554,22 +640,35 @@ footer{
     .work{
         line-height: 20px;
         width: 100%;
+        align-items: start;
+        display: flex;
+        justify-content: flex-start;
+        text-align: start;
+
     }
     .work p{
         width: 300px;
+        padding-left: 0;
     }
     .hire{
         width: 100px;
-        margin-left: 10px;
     }
-
+    .review{
+        width: 300px;
+    }
+    .rond{
+        left:2%;
+    }
+    .rond2{
+        left: 2%;
+    }
     .visit, .subscribe, .message {
-        width: auto !important;
+        width: auto ;
         padding: 10px 20px;
     }
 
     .price {
-        font-size: 1.5em !important;
+        font-size: 1.5em ;
     }
 
     footer {
@@ -585,4 +684,3 @@ footer{
         width: 30px;
     }
 }
-
