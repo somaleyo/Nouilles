@@ -61,7 +61,7 @@ header{
     padding-left: 25vw;
     margin-left: -10px;
     margin-right: -20px;
-    background: linear-gradient(180deg,rgba(255, 95, 47, 0) 50%, rgb(255, 255, 255) 90%), url(./images/header.jpg) no-repeat;
+    background: linear-gradient(180deg,rgba(255, 95, 47, 0) 50%, rgb(255, 255, 255) 90%), url(../Nouilles/images/header.jpg) no-repeat;
     width: auto;
     height: auto;
     background-size: cover;
