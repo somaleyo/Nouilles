@@ -358,7 +358,7 @@ span{
 .review img{
     border-radius: 50%;
     height:10vh;
-    width: 5vw;
+    width: 6vw;
 }
 .autor{
     font-weight: 1000;
@@ -705,6 +705,13 @@ footer{
     }
     .review{
     width:  35vw;
+    }
+    .rond{
+left: 25%;
+    }
+    .rond2{
+        left: 26%;
+       
     }
 
     .imgcontainer {
