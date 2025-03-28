@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding:0;
 }
+button{
+    cursor: pointer;
+}
 section{
     padding-right:8vw ;
     padding-left: 8vw;
@@ -631,90 +634,5 @@ footer{
     .reso-container {
         flex-wrap: wrap;
         justify-content: center;
-    }
-}
-@media (min-width: 600px) and (max-width: 1024px) {
-    nav {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 1rem 4vw;
-    }
-
-    nav a {
-        font-size: 3.5vw;
-    }
-
-    header h1 {
-        font-size: 7vw;
-    }
-
-    header h3 {
-        font-size: 4.5vw;
-    }
-
-    #about img {
-        width: 30vw;
-        height: auto;
-    }
-
-    #about {
-        flex-direction: column;
-        padding-right: 8vw;
-        padding-left: 8vw;
-    }
-    .visit{
-        padding-left: 2vw;
-        padding-right: 2vw;
-        padding-bottom: 10vh;
-    }
-
-    #services .s-container {
-        flex-direction: row;
-        display: flex;
-        gap: 1vw;
-        flex-wrap: wrap;
-        width: 11vw;
-        justify-content: center;
-        align-items: center;
-    }
-   
-
-    .card {
-        width: 45%;
-        padding: 3vw;
-        line-height:2;
-        padding-right: 8vw;
-        padding-left: 8vw;
-    }
-    .price{
-        font-size:1vw;
-      
-    }
-    .subscribe{
-        width: 9vw;
-    }
-    #portfolio {
-        padding: 3vw;
-    }
-
-    .price {
-        font-size: 3vw;
-    }
-    .hire{
-        width: 8vw;
-    }
-    .review{
-    width:  35vw;
-    }
-    .rond{
-left: 25%;
-    }
-    .rond2{
-        left: 26%;
-       
-    }
-
-    .imgcontainer {
-        width: 48%;
     }
 }
