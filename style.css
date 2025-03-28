@@ -357,7 +357,8 @@ span{
 }
 .review img{
     border-radius: 50%;
-    height:12vh;
+    height:10vh;
+    width: 5vw;
 }
 .autor{
     font-weight: 1000;
@@ -482,4 +483,231 @@ footer{
 }
 .logo:hover{
     opacity: 0.3;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    section {
+        padding-right: 4vw !important;
+        padding-left: 4vw !important;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ancre-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+    }
+
+    #about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about img {
+        width: 50% !important;
+        height: auto !important;
+        margin-bottom: 20px;
+    }
+
+    .s-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container .imgcontainer {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .container-review {
+        flex-direction: column;
+    }
+
+    .review {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .maincont {
+        width: 100%;
+    }
+
+    .post-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photocontainer img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+/* Media Queries pour Mobile */
+@media screen and (max-width: 600px) {
+    nav {
+        padding-right: 2vw !important;
+        padding-left: 2vw !important;
+    }
+    .visit{
+        height: 5vh;
+        width: 1vw;
+    }
+
+    .ancre-container {
+        gap: 1vw;
+    }
+
+    header {
+        padding-left: 4vw !important;
+        padding-right: 4vw !important;
+    }
+
+    header h1 {
+        font-size: 4vh !important;
+    }
+
+    header h3 {
+        font-size: 2vh !important;
+    }
+
+    #about img {
+        width: 80% !important;
+    }
+
+    .services img {
+        height: 5vh !important;
+    }
+  
+    .card img {
+        height: 6vh !important;
+    }
+
+    .visit, .subscribe, .hire, .message {
+        width: auto !important;
+        padding: 10px 20px;
+    }
+
+    .price {
+        font-size: 1.5em !important;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reso-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 4vw;
+    }
+
+    nav a {
+        font-size: 3.5vw;
+    }
+
+    header h1 {
+        font-size: 7vw;
+    }
+
+    header h3 {
+        font-size: 4.5vw;
+    }
+
+    #about img {
+        width: 30vw;
+        height: auto;
+    }
+
+    #about {
+        flex-direction: column;
+        padding-right: 8vw;
+        padding-left: 8vw;
+    }
+    .visit{
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 10vh;
+    }
+
+    #services .s-container {
+        flex-direction: row;
+        display: flex;
+        gap: 1vw;
+        flex-wrap: wrap;
+        width: 11vw;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+    .card {
+        width: 45%;
+        padding: 3vw;
+        line-height:2;
+        padding-right: 8vw;
+        padding-left: 8vw;
+    }
+    .price{
+        font-size:1vw;
+      
+    }
+    .subscribe{
+        width: 9vw;
+    }
+    #portfolio {
+        padding: 3vw;
+    }
+
+    .price {
+        font-size: 3vw;
+    }
+    .hire{
+        width: 8vw;
+    }
+    .review{
+    width:  35vw;
+    }
+
+    .imgcontainer {
+        width: 48%;
+    }
 }
