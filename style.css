@@ -382,14 +382,14 @@ span{
     font-family: "Baloo 2"; 
     font-size: 1.2vw;
     margin-top: 4vh;
-    margin-bottom: 2vh;
+    margin-bottom: 0;
     
 }
 .post-container{
     border: 1px solid rgba(0, 0, 0, 0.121);
   display: flex;
     gap: 2vw;
-    padding-bottom: 2vh;
+    padding-bottom: 0;
     padding-right: 2vw;
     
 }
@@ -405,7 +405,7 @@ span{
 }
 
 .photocontainer img{
-    height: 48vh;
+    height: 40vh;
     width: 25vw;
 }
 
@@ -424,7 +424,7 @@ span{
 .infopost{
     display: flex;
     flex-direction: row;
-    padding-bottom: 2vh;
+    padding-bottom: 0;
 }
 
 .com{
